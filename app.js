@@ -1,6 +1,8 @@
 const Koa = require('koa');
 const app = new Koa();
 
+require('./db');
+
 const koaBody = require('koa-body');
 const router = require('./router');
 
